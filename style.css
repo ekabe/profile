@@ -32,17 +32,19 @@ h2 {
   background: #53BF9D;
   border-radius: 5px;
   padding: 10px;
+  margin: 0% 20%;
   font-family: "Quicksand", "sans-serif";
   color: white;
   font-weight: 400;
   text-decoration: none;
   display: block;
+
 }
 
 .button:hover {
-  padding: 12px;
-  margin: 5px;
+  margin: 0% 19%;
   font-weight: 500;
+
 }
 
 a {
@@ -92,7 +94,7 @@ a {
 .icon:hover {
 
 padding: 1px 6px;
-margin: -1px;
+margin: 9px;
 }
 
 
