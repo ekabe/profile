@@ -1,0 +1,131 @@
+body {
+
+	color: #D9534F;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:  400;
+  background:  linear-gradient(180deg, rgba(255, 253, 247, 0.97), rgba(255, 252, 241, 0.94)), url("images/2fort.png");
+	background-position: center +13%;
+	background-size: cover;
+}
+
+h1 {
+  font-family: "Montserrat", "sans-serif";
+  color: #D9534F;
+}
+
+h2 {
+  font-family: "Raleway", "sans-serif";
+  color: #96CEB4;
+}
+
+.profile-pic {
+  border-radius: 50px;
+}
+
+#profs {
+  font-family: "Montserrat", "sans-serif";
+  color: #D9534F;
+  display: block;
+}
+
+.button {
+  background: #53BF9D;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Quicksand", "sans-serif";
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+}
+
+.button:hover {
+  padding: 12px;
+  margin: 5px;
+  font-weight: 500;
+}
+
+a {
+  color: #53BF9D;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background:  rgba(253, 254, 255, 0.4);
+  border-radius: 5px;
+  margin: 20px;
+  padding: 50px;
+  box-shadow: 0px 10px 30px #e9ecea;
+}
+
+/* .contact-card {
+
+  max-height: 130px;
+} */
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ .icon {
+  background: #53BF9D;
+  border-radius: 5px;
+  padding: 0px 5px;
+  color: white;
+  margin: 10px;
+}
+
+.icon:hover {
+
+padding: 1px 6px;
+margin: -1px;
+}
+
+
+/* .icon:hover {
+
+font-size: 55px;
+  } */
+
+.transparency {
+  opacity: 0.8;
+}
+
+#introduction {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
